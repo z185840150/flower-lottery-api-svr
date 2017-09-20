@@ -1,0 +1,19 @@
+{
+  "name": "flower-lottery-api-svr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z185840150/flower-lottery-api-svr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/z185840150/flower-lottery-api-svr/issues"
+  },
+  "homepage": "https://github.com/z185840150/flower-lottery-api-svr#readme"
+}
