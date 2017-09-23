@@ -1,0 +1,16 @@
+{
+  "standard.enable": true,
+  "standard.options": {
+    "autoFix": true,
+    "globals": ["__dev", "__conf"],
+    "ignore": [
+      "node_modules/**"
+    ],
+    "parser": "babel-eslint"
+  },
+  "standard.autoFixOnSave": true,
+  "standard.validate": [
+    "javascript",
+    "javascriptreact"
+  ]
+}

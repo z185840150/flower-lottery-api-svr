@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "export NODE_ENV=dev&& supervisor -w bin,config,lib,files -x node bin",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,31 @@
   "bugs": {
     "url": "https://github.com/z185840150/flower-lottery-api-svr/issues"
   },
-  "homepage": "https://github.com/z185840150/flower-lottery-api-svr#readme"
+  "homepage": "https://github.com/z185840150/flower-lottery-api-svr#readme",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "canvas": "^1.6.7",
+    "cluster": "^0.7.7",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "crypto": "^1.0.1",
+    "express": "^4.15.4",
+    "express-rate-limit": "^2.9.0",
+    "express-validation": "^1.0.2",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "joi": "^11.0.2",
+    "jwt-simple": "^0.5.1",
+    "log4js": "^2.3.3",
+    "mime": "^2.0.2",
+    "moment": "^2.18.1",
+    "mongoose": "^4.11.12",
+    "os": "^0.1.1",
+    "rate-limit-redis": "^1.1.0",
+    "redis": "^2.8.0",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
 }

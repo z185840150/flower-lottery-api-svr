@@ -1,0 +1,14 @@
+{
+  "appenders": {
+    "console": { "type": "console" },
+    "app": {
+      "type": "dateFile",
+      "filename": "./logs/dev_access.log",
+      "pattern": "-yyyy-MM-dd",
+      "maxLogSize": 1048576
+    }
+  },
+  "categories": {
+    "default": { "appenders": [ "console", "app" ], "level": "debug" }
+  }
+}
