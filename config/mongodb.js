@@ -1,4 +1,4 @@
-module.exports = {
+const dbConf = {
   url: 'mongodb://lotteryDbOwner:lottery123@127.0.0.1:27017/lottery?authSource=lottery',
   host: '127.0.0.1',
   port: '27017',
@@ -8,3 +8,4 @@ module.exports = {
   authSource: 'lottery',
   pr: ''
 }
+export default dbConf
