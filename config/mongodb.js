@@ -1,3 +1,7 @@
+/**
+ * @name mongodb config
+ * @type {object}
+ */
 const dbConf = {
   url: 'mongodb://lotteryDbOwner:lottery123@127.0.0.1:27017/lottery?authSource=lottery',
   host: '127.0.0.1',
